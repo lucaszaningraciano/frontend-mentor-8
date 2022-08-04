@@ -1,0 +1,231 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(./images/bg-pattern-top-desktop.svg),
+    url(./images/bg-pattern-bottom-desktop.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: 0 0, 800px 300px;
+  font-family: "League Spartan", sans-serif;
+}
+
+.container {
+  width: 1200px;
+  height: 800px;
+}
+
+.container-top {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  margin-left: 300px;
+  margin-top: 200px;
+}
+.container-top-texts {
+  align-items: left;
+  text-align: left;
+}
+
+h1 {
+  color: hsl(300, 43%, 22%);
+  font-weight: 700;
+  font-size: 62px;
+  text-align: left;
+}
+
+.container-top-p {
+  width: 80%;
+  font-size: 20px;
+  color: hsl(303, 10%, 53%);
+  font-weight: 500;
+  margin-top: 30px;
+  line-height: 25px;
+  text-align: left;
+}
+
+.container-top-stars {
+  width: 300px;
+  height: 150px;
+  margin-left: 10px;
+  margin-right: 270px;
+}
+
+.container-top-stars img {
+  width: 20px;
+  height: 15px;
+  margin-left: 5px;
+}
+.container-items-1 {
+  width: 450px;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  background-color: hsl(300, 24%, 96%);
+  border: none;
+  border-radius: 8px;
+  margin: 30px;
+  padding: 20px;
+  margin-left: 10px;
+}
+.container-items-2 {
+  width: 450px;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  background-color: hsl(300, 24%, 96%);
+  border: none;
+  border-radius: 8px;
+  margin: 30px;
+  padding: 20px;
+  margin-left: 60px;
+  margin-top: -15px;
+}
+.container-items-3 {
+  width: 450px;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  background-color: hsl(300, 24%, 96%);
+  border: none;
+  border-radius: 8px;
+  margin: 30px;
+  padding: 20px;
+  margin-left: 110px;
+  margin-top: -15px;
+}
+.container-top-star-p {
+  font-size: 18px;
+  color: hsl(300, 43%, 22%);
+  font-weight: 700;
+  margin-left: 30px;
+}
+.container-bottom {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  margin-left: 270px;
+}
+.container-bottom-1 {
+  width: 350px;
+  height: 210px;
+  background: hsl(300, 43%, 22%);
+  border: none;
+  border-radius: 8px;
+  margin: 15px;
+  padding: 30px;
+  margin-bottom: 50px;
+}
+.container-bottom-1 img {
+  width: 40px;
+  border: none;
+  border-radius: 50%;
+}
+.container-bottom-1-tittle {
+  display: flex;
+  align-items: left;
+  flex-direction: row;
+}
+
+.container-bottom-1-tittle-texts {
+  margin-left: 20px;
+  margin-top: 5px;
+}
+.container-bottom-1-tittle-texts h3 {
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+  font-size: 17px;
+}
+.container-bottom-1-tittle-texts h4 {
+  color: hsl(333, 80%, 67%);
+  font-weight: 400;
+  font-size: 15px;
+  margin-top: 2px;
+  opacity: 0.8;
+}
+.container-bottom-2 {
+  width: 350px;
+  height: 210px;
+  background: hsl(300, 43%, 22%);
+  border: none;
+  border-radius: 8px;
+  margin: 15px;
+  padding: 30px;
+  margin-bottom: 50px;
+  margin-top: 40px;
+}
+.container-bottom-2 img {
+  width: 40px;
+  border: none;
+  border-radius: 50%;
+}
+.container-bottom-2-tittle {
+  display: flex;
+  align-items: left;
+  flex-direction: row;
+}
+
+.container-bottom-2-tittle-texts {
+  margin-left: 20px;
+  margin-top: 5px;
+}
+.container-bottom-2-tittle-texts h3 {
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+  font-size: 17px;
+}
+.container-bottom-2-tittle-texts h4 {
+  color: hsl(333, 80%, 67%);
+  font-weight: 400;
+  font-size: 15px;
+  margin-top: 2px;
+  opacity: 0.8;
+}
+.container-bottom-3 {
+  width: 350px;
+  height: 210px;
+  background: hsl(300, 43%, 22%);
+  border: none;
+  border-radius: 8px;
+  margin: 15px;
+  padding: 30px;
+  margin-bottom: 50px;
+  margin-top: 60px;
+}
+.container-bottom-3 img {
+  width: 40px;
+  border: none;
+  border-radius: 50%;
+}
+.container-bottom-3-tittle {
+  display: flex;
+  align-items: left;
+  flex-direction: row;
+}
+
+.container-bottom-3-tittle-texts {
+  margin-left: 20px;
+  margin-top: 5px;
+}
+.container-bottom-3-tittle-texts h3 {
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+  font-size: 17px;
+}
+.container-bottom-3-tittle-texts h4 {
+  color: hsl(333, 80%, 67%);
+  font-weight: 400;
+  font-size: 15px;
+  margin-top: 2px;
+  opacity: 0.8;
+}
+.container-bottom-p {
+  color: hsl(0, 0%, 100%);
+  font-weight: 400;
+  margin-top: 30px;
+  font-size: 16px;
+}
